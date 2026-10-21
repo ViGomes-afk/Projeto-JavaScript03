@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JokenPô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+        <p >Escolha sua jogada:</p>
+
+        <div class="choices">
+            <button class="rock" onclick="plyHuman('rock')">&#x270A</button>
+            <button class="paper" onclick="plyHuman('paper')">&#x270B</button>
+            <button class="scissors" onclick="plyHuman('scissors')">&#x270C</button>
+        </div>
+
+        <p class="result"><span></span></p>
+
+        <p class="you-score">Sua Pontuacao: <span id="human-score">0</span></p>
+        <p class="computer-score">Computador Pontuacao: <span id="ia-score">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
